@@ -1,0 +1,32 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css';
+
+/* Custom styles */
+body {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+}
+
+.dark-mode {
+  background-color: #1a202c;
+  color: #f7fafc;
+}
+
+.light-mode {
+  background-color: #f7fafc;
+  color: #1a202c;
+}
+
+input#inputUrl {
+  @apply w-full p-2 border border-gray-300 rounded;
+}
+
+button#submitButton {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+button#darkModeToggle {
+  @apply bg-gray-800 text-white font-bold py-2 px-4 rounded;
+}
+
+div#descriptionContainer {
+  @apply mt-4 p-4 bg-white shadow-md rounded;
+}
